@@ -1,0 +1,91 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{周天树}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+\contactInfo{hellozts4120@gmail.com}{(+86) 131-6291-0558}{https://github.com/hellozts4120}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{台湾国立交通大学}, 新竹}{2016年2月 -- 2016年6 月}
+\textit{本科学期交换}\ 资讯工程系
+\datedsubsection{\textbf{复旦大学}, 上海}{2014年9月 -- 至今}
+\textit{本科在读}\ 软件工程, 预计 2018年7月毕业
+
+\section{\faUsers\ 项目经历}
+\datedsubsection{\textbf{百度 Web 前端技术学院（IFE）}}{2016年3月 -- 2016年5月}
+\role{前端}{个人学习项目}
+参加2016年百度IFE学院学习
+\begin{itemize}
+  \item 系统深入学习了HTML、CSS、JavaScript相关技术，完成了要求的四个阶段任务
+  \item 在闲暇时间自行完成2015年春季IFE学院任务，加深了对前端技术的理解
+  \item 在队友缺席的情况下独立完成大量任务，项目得到多人的认可，10+人次fork
+  \item 项目地址: https://github.com/hellozts4120/IFE-2016
+\end{itemize}
+
+\datedsubsection{\textbf{微型调查问卷平台}}{2016年5月}
+\role{Javascript, AngularJS}{个人项目，独立开发}
+\begin{onehalfspacing}
+采用AngularJS-1.x实现的问卷平台后端管理系统
+\begin{itemize}
+  \item CRUD逻辑的SPA单页应用，利用Angular双向数据绑定优势，效率高
+  \item 采用Gulp打包，并应用了Echarts，有较好的数据可视化体验
+  \item 项目地址：https://github.com/hellozts4120/Micro-Questionnaire-RIA
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{To-Do List}}{2016年4月}
+\role{Javascript}{个人项目, 独立开发}
+\begin{onehalfspacing}
+原生Javascript编写的To-Do List单页应用
+\begin{itemize}
+  \item 使用localStorage和JSON存储数据
+  \item 支持分类待办状态改变，具有良好的交互体验
+  \item 项目地址：https://github.com/hellozts4120/FullStack-HKUST/tree/master/ife-exercise/task0003
+\end{itemize}
+\end{onehalfspacing}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: 熟悉Javascript, HTML/CSS, Java, 较了解C++, C
+  \item 开发框架: AngularJS, jQuery, bootstrap, Ionic
+\end{itemize}
+
+\section{\faHeartO\ 获奖情况}
+\datedline{\textit{校二等奖学金}, 复旦大学}{2015 年9 月}
+\datedline{\textit{优秀学生}, 复旦大学}{2015 年11 月}
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item GitHub: https://github.com/hellozts4120
+  \item 语言: 英语 - 熟练(TOEFL 90)
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
